@@ -23,6 +23,10 @@
     color: #007bff;
 }
 
+.fa-solid:hover {
+    color: #0062cc;
+}
+
 .lap {
     display: flex;    
 }
