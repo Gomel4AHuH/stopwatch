@@ -14,20 +14,16 @@
     margin: 1em 0;
 }
 
-button {
-    margin-left: 5px;
-    background-color: #00cc66;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.5em;
-    padding: 0.5em 1em;    
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
+.buttons {
+    display: flex;
 }
 
-.buttons {
+.fa-solid {
+    margin-left: 20px;
+    color: #007bff;
+}
+
+.lap {
     display: flex;    
 }
 
@@ -37,14 +33,14 @@ button {
     margin-top: 5px;
 }
 
-button:hover {
-    background-color: #00c000;
-}
-
 .hide {
     display: none;
 }
 
 .show {
     display: block;
+}
+
+.line {
+    text-decoration: line-through;
 }
